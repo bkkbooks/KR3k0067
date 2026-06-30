@@ -1,0 +1,81 @@
+canonical_identifier: bkk:krp/KR3k0067/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3k0067/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 歲華紀麗
+  identifiers:
+    krp: KR3k0067
+  tags:
+    kr-categories: KR3k
+  source:
+    repository: tls-texts
+    path: data/tls/KR3k0067.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3k0067_001-CHANT.yaml, hash: 'sha256:ef3f93fdf5a32d88690034d7ee09401d435013a829bd2cd97d89af627e67af7b'}
+  - {seq: 2, filename: KR3k0067_002-CHANT.yaml, hash: 'sha256:93a0c0ba1e4659b0bf80ce5b15eadd7369cd798a1ba581f9f498f2510db87fb0'}
+  - {seq: 3, filename: KR3k0067_003-CHANT.yaml, hash: 'sha256:43bc78268e39d7542f361f1d919fca821a5b200cc29d0aae06e9cb2852b90dbc'}
+  - {seq: 4, filename: KR3k0067_004-CHANT.yaml, hash: 'sha256:9801f7ddccb12d2edfa401b21fcae72b4031f40819340962ec5020d775a02ed2'}
+  - {seq: 5, filename: KR3k0067_005-CHANT.yaml, hash: 'sha256:5dd051dda6c822e78ff2e62db9aa492b7a6e5810afeda4c5b7244c6b7c2c9000'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3k0067_001-CHANT.markers.yaml, hash: 'sha256:f9648de78b934a886de86d4dcf10804caef46d4feb498d750d8c7374440008ec'}
+  - {seq: 2, role: markers, filename: assets/KR3k0067_002-CHANT.markers.yaml, hash: 'sha256:0ea71d59855feb2142f434b3495d0fa3c60f8b3f7d24dcd51219c0b31e96fdfd'}
+  - {seq: 3, role: markers, filename: assets/KR3k0067_003-CHANT.markers.yaml, hash: 'sha256:b6179d927267c6bd4da73fc331e682bd4c0a549b40c628a81736ecd1f86df439'}
+  - {seq: 4, role: markers, filename: assets/KR3k0067_004-CHANT.markers.yaml, hash: 'sha256:e4328f4c45a2e0d9006cfe780c1a51ee2e36751f75abbb38d03a8b270b7e5d2d'}
+  - {seq: 5, role: markers, filename: assets/KR3k0067_005-CHANT.markers.yaml, hash: 'sha256:e01eb9e6368151ef555baf72b59bb036dd0f4f23b560ffa94dd8973929182fed'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3k0067_CHANT_001-1a.1-h
+    span:
+    - front
+    - 0
+    - 527
+  label: 歲華紀麗序
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3k0067_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 9018
+  label: 春
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3k0067_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 7205
+  label: 夏
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR3k0067_CHANT_004-1a.1-h
+    span:
+    - body
+    - 0
+    - 6476
+  label: 秋
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR3k0067_CHANT_005-1a.1-h
+    span:
+    - body
+    - 0
+    - 7004
+  label: 冬
+  type: section
+  level: 1
+hash: sha256:36a871706db371b328fa57c973f0c54ea96f0b24a9b7fd5c8fe7173df713c697
